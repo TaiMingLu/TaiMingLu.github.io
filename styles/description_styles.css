@@ -1,3 +1,10 @@
+/* Styling for contact and profile links */
+.contact-links {
+    font-family: 'Hind Madurai', 'EB Garamond', 'Lato', Verdana, Helvetica, sans-serif;
+}
+
+  
+
 .name {
     padding-top: 20px;
     margin: 0;
@@ -8,7 +15,7 @@
 
 .footer-text {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 14px;
     color: #555;
     font-family: 'EB Garamond', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
