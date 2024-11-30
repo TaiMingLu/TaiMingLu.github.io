@@ -25,3 +25,8 @@
     color: #ffcc00; /* Optional: Color change on hover */
     text-decoration: underline; /* Optional: Adds underline on hover */
 }
+
+.section-title {
+
+    font-family: 'Candara', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
+}
