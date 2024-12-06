@@ -1,3 +1,18 @@
+.paper-table {
+    position: relative;
+    padding-left: 40px;
+}
+
+.paper-splitter {
+    position: absolute;
+    top: 0;
+    left: 2.5%;
+    height: 90%;
+    border-left: 3px solid; /* Leave the color undefined */
+}
+
+
+
 .papertitle {
     font-family: 'Candara', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 15px;
@@ -31,3 +46,41 @@ body.dark .papertitle:hover {
     font-family: 'Candara', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 12px;
 }
+
+
+
+
+/* Smaller font size for medium screens (e.g., tablets) */
+@media screen and (max-width: 768px) {
+  
+    .papertitle {
+      font-size: 14px;
+    }
+    
+    .paper_links,
+    .paper_links_splitter {
+      font-size: 11px;
+    }
+
+    .paper-table {
+        padding-left: 40px;
+    }
+  
+  }
+  
+  /* Even smaller font size for small screens (e.g., phones) */
+  @media screen and (max-width: 480px) {
+  
+    .papertitle {
+        font-size: 13px;
+      }
+  
+    .paper_links,
+    .paper_links_splitter {
+        font-size: 10px;
+      }
+    
+    .paper-table {
+        padding-left: 25px;
+    }
+  }

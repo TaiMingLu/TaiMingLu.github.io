@@ -1,10 +1,4 @@
 /* Styling for contact and profile links */
-.contact-links {
-    font-family: 'Hind Madurai', 'EB Garamond', 'Lato', Verdana, Helvetica, sans-serif;
-}
-
-
-
 .name {
     padding-top: 20px;
     margin: 0;
@@ -13,6 +7,13 @@
     font-weight: bold;
 }
 
+.contact-links {
+    font-family: 'Hind Madurai', 'EB Garamond', 'Lato', Verdana, Helvetica, sans-serif;
+}
+
+
+
+
 .footer-text {
     text-align: center;
     margin-top: 50px;
@@ -20,6 +21,11 @@
     color: #555;
     font-family: 'EB Garamond', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
 }
+
+body.dark .footer-text {
+    color: #a2a2a2;
+}
+
 
 
 
@@ -51,3 +57,21 @@ body.dark .highlight-link:hover {
 
     font-family: 'Candara', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
 }
+
+
+
+/* Smaller font size for medium screens (e.g., tablets) */
+@media screen and (max-width: 768px) {
+    .name {
+        font-size: 30px;
+    }
+  
+  }
+  
+  /* Even smaller font size for small screens (e.g., phones) */
+  @media screen and (max-width: 480px) {
+    .name {
+        font-size: 24px;
+        padding-top: 30px;
+    }
+  }

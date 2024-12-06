@@ -68,3 +68,56 @@ body.dark {
   color: white;
   /* Dark theme text color */
 }
+
+
+
+/* Smaller font size for medium screens (e.g., tablets) */
+@media screen and (max-width: 768px) {
+
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+  body,
+  td,
+  th,
+  tr,
+  p,
+  a,
+  strong {
+    font-size: 13px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+
+}
+
+/* Even smaller font size for small screens (e.g., phones) */
+@media screen and (max-width: 480px) {
+
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+
+  body,
+  td,
+  th,
+  tr,
+  p,
+  a,
+  strong {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+
+}
