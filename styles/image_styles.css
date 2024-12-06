@@ -1,6 +1,8 @@
 .profile-photo {
-    width: 60%;
-    max-width: 60%;
+    width: 153.6px; /* Set exact width */
+    height: auto; /* Automatically adjusts height to maintain aspect ratio */
+    max-width: 100%;
+    object-fit: contain;
     object-fit: cover;
     border-radius: 10%;
     position: relative;
