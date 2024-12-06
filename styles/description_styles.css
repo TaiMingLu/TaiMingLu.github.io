@@ -3,7 +3,7 @@
     font-family: 'Hind Madurai', 'EB Garamond', 'Lato', Verdana, Helvetica, sans-serif;
 }
 
-  
+
 
 .name {
     padding-top: 20px;
@@ -24,14 +24,28 @@
 
 
 .highlight-link {
-    color: #9500ff; /* Replace with your desired color */
-    text-decoration: none; /* Optional: Removes underline */
+    color: #9500ff;
+    /* Replace with your desired color */
+    text-decoration: none;
+    /* Optional: Removes underline */
 }
 
 .highlight-link:hover {
-    color: #ffcc00; /* Optional: Color change on hover */
-    text-decoration: underline; /* Optional: Adds underline on hover */
+    color: #ffcc00;
+    /* Optional: Color change on hover */
+    text-decoration: underline;
+    /* Optional: Adds underline on hover */
 }
+
+/* Dark Mode */
+body.dark .highlight-link {
+    color: #ff80ff;
+}
+
+body.dark .highlight-link:hover {
+    color: #fbff00;
+}
+
 
 .section-title {
 

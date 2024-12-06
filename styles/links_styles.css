@@ -1,0 +1,18 @@
+/* Dark Mode Styles */
+body.dark a {
+    color: #5f94ff;
+    /* Light blue for links in dark mode */
+    text-decoration: none;
+    /* Ensure links remain underlined */
+}
+
+/* body.dark a:visited {
+    color: #dda0dd;
+} */
+
+body.dark a:hover {
+    color: #00f2ff;
+    /* Lighter blue for hover in dark mode */
+    text-decoration: none;
+    /* Ensure underline remains on hover */
+}

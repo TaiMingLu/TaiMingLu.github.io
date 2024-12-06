@@ -1,24 +1,33 @@
-papertitle {
+.papertitle {
     font-family: 'Candara', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 15px; /* Adjust font size here */
+    font-size: 15px;
+    /* Adjust font size here */
     font-weight: 700;
     color: black;
 }
 
-
-
-papertitle:hover {
+.papertitle:hover {
     color: #007acc;
 }
 
+/* Dark Mode */
+body.dark .papertitle {
+    color: white !important;
+    /* Ensure white in dark mode */
+}
+
+body.dark .papertitle:hover {
+    color: #ff9900 !important;
+    /* Dark mode hover color */
+}
 
 
-.paper_links{
+.paper_links {
     font-family: 'Candara', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 12px;
 }
 
-.paper_links_splitter{
+.paper_links_splitter {
     font-family: 'Candara', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 12px;
 }

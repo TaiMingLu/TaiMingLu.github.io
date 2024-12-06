@@ -1,6 +1,6 @@
 function setFaviconBasedOnTheme() {
   const theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  console.log(`Current theme detected: ${theme}`); // Log the current theme for debugging
+  // console.log(`Current theme detected: ${theme}`); // Log the current theme for debugging
 
   const favicon = document.getElementById('favicon');
   if (favicon) {
