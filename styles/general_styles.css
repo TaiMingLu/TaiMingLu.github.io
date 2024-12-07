@@ -63,7 +63,7 @@ span.highlight {
 
 /* Dark Theme */
 body.dark {
-  background-color: rgb(26, 26, 26);
+  background-color: #051923;
   /* Dark theme background */
   color: white;
   /* Dark theme text color */
@@ -89,7 +89,7 @@ body.dark {
   strong {
     font-size: 13px;
   }
-  
+
   h2 {
     font-size: 18px;
   }

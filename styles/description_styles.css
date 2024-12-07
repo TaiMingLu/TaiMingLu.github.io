@@ -65,13 +65,13 @@ body.dark .highlight-link:hover {
     .name {
         font-size: 30px;
     }
-  
-  }
-  
-  /* Even smaller font size for small screens (e.g., phones) */
-  @media screen and (max-width: 480px) {
+
+}
+
+/* Even smaller font size for small screens (e.g., phones) */
+@media screen and (max-width: 480px) {
     .name {
         font-size: 24px;
         padding-top: 30px;
     }
-  }
+}
