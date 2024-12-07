@@ -3,7 +3,7 @@
 }
 
 .theme-toggle {
-    --theme-toggle__expand--duration: 500ms
+    --theme-toggle__expand--duration: 1000ms
 }
 
 .theme-toggle__expand g circle,
@@ -107,12 +107,45 @@
     height: 100%;
 }
 
+body:not(.dark) .theme-toggle:hover svg {
+    animation: spin 5s linear infinite; /* Continuous rotation */
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg); /* Start position */
+    }
+    to {
+        transform: rotate(360deg); /* Full rotation */
+    }
+}
+
 /* Dark mode styles */
 body.dark .theme-toggle svg {
     fill: rgb(224, 244, 255);
     /* Change icon color to white in dark mode */
 }
 
+/* Hover for when the body IS in dark mode */
+body.dark .theme-toggle:hover svg {
+    animation: color-change 10s linear infinite; /* Continuous smooth color change */
+}
+
+/* Keyframes for color change */
+@keyframes color-change {
+    0% {
+        fill: #b599d4; /* Start color */
+    }
+    33% {
+        fill: #976080; /* Intermediate color */
+    }
+    66% {
+        fill: #7686c2; /* Another intermediate color */
+    }
+    100% {
+        fill: #b599d4; /* Back to the start color */
+    }
+}
 
 
 
