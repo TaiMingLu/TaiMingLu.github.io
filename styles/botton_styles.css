@@ -112,3 +112,24 @@ body.dark .theme-toggle svg {
     fill: rgb(224, 244, 255);
     /* Change icon color to white in dark mode */
 }
+
+
+
+
+/* Smaller font size for medium screens (e.g., tablets) */
+@media screen and (max-width: 768px) {
+
+    .theme-toggle {
+        width: 32px;
+    }
+
+}
+
+/* Even smaller font size for small screens (e.g., phones) */
+@media screen and (max-width: 480px) {
+
+    .theme-toggle {
+        width: 34px;
+    }
+
+}
