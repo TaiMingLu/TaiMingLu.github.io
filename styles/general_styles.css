@@ -63,13 +63,13 @@ span.highlight {
 
 /* Dark Theme */
 body.dark {
-  background-color: #070c0e;
+  background-color: #050A0E;
   /* background-image: linear-gradient(to right, #fc5c7d, #6a82fb); */
   /* background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); */
   /* background-image: linear-gradient(to right, #3f004d, #350455, #2a085c, #200c64, #15106b, #0b1473, #00187a); */
   /* background-image: linear-gradient(to right, #361c0e, #570211, #7e3110, #004540, #032c4d #360825); */
   /* Dark theme background */
-  color: white;
+  color: #FAFAFA;
   /* Dark theme text color */
 }
 

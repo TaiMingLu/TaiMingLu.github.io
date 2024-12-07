@@ -7,8 +7,18 @@
     font-weight: bold;
 }
 
+/* Dark Mode */
+body.dark .name {
+    color: #FCEE09;
+}
+
+
 .contact-links {
     font-family: 'Hind Madurai', 'EB Garamond', 'Lato', Verdana, Helvetica, sans-serif;
+}
+
+body.dark .contact-links {
+    color: #00F0FF;
 }
 
 
@@ -49,7 +59,7 @@ body.dark .highlight-link {
 }
 
 body.dark .highlight-link:hover {
-    color: #fbff00;
+    color: #ff1111;
 }
 
 
