@@ -55,7 +55,8 @@ body.dark .footer-text {
 
 /* Dark Mode */
 body.dark .highlight-link {
-    color: #ff80ff;
+    /* color: #ff80ff; */
+    color: #f22eeb;
 }
 
 body.dark .highlight-link:hover {

@@ -11,7 +11,8 @@ body.dark a {
 } */
 
 body.dark a:hover {
-    color: 	#5f94ff;
+    /* color: 	#5f94ff; */
+    color: 	#9924ff;
     /* Lighter blue for hover in dark mode */
     text-decoration: none;
     /* Ensure underline remains on hover */
