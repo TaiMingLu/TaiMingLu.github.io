@@ -8,7 +8,8 @@
     top: 0;
     left: 2.5%;
     height: 90%;
-    border-left: 3px solid; /* Leave the color undefined */
+    border-left: 3px solid;
+    /* Leave the color undefined */
 }
 
 
@@ -73,21 +74,21 @@ body.dark .papertitle-highlight:hover {
 :root {
     --splitter-colors-light: #90f1ef, #ffd6e0, #ffef9f, #c1fba4;
     --splitter-colors-dark: #ff0677, #b000ff, #fd00ff, #8900ff;
-  }
-  
+}
+
 
 
 
 /* Smaller font size for medium screens (e.g., tablets) */
 @media screen and (max-width: 768px) {
-  
+
     .papertitle {
-      font-size: 14px;
+        font-size: 14px;
     }
-    
+
     .paper_links,
     .paper_links_splitter {
-      font-size: 11px;
+        font-size: 11px;
     }
 
     .paper-table {
@@ -97,21 +98,21 @@ body.dark .papertitle-highlight:hover {
     body.dark .papertitle {
         font-size: 16px;
     }
-  
-  }
-  
-  /* Even smaller font size for small screens (e.g., phones) */
-  @media screen and (max-width: 480px) {
-  
+
+}
+
+/* Even smaller font size for small screens (e.g., phones) */
+@media screen and (max-width: 480px) {
+
     .papertitle {
         font-size: 13px;
-      }
-  
+    }
+
     .paper_links,
     .paper_links_splitter {
         font-size: 10px;
-      }
-    
+    }
+
     .paper-table {
         padding-left: 25px;
     }
@@ -120,4 +121,4 @@ body.dark .papertitle-highlight:hover {
         font-size: 15px;
     }
 
-  }
+}
