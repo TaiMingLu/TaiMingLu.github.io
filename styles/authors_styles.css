@@ -33,7 +33,7 @@
     /* Thickness of the underline */
     background-color: black;
     /* Color of the underline */
-    /* transition: width 0.3s ease; */
+    transition: width 0.3s ease;
     /* Animation for the underline */
 }
 
