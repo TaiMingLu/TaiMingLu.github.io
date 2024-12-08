@@ -20,7 +20,7 @@ function initializeThemeController() {
 
     // Apply the system theme on load (Currently forcing dark for testing)
     const savedTheme = localStorage.getItem('sessionTheme') || initialPreference;
-    setTheme('dark'); // Force dark mode for testing
+    setTheme('light'); // Force dark mode for testing
     // setTheme(savedTheme); // In future, comment out the above line and uncomment this one for user/system theme
 
     // Apply colors immediately so .paper-splitter matches the chosen theme

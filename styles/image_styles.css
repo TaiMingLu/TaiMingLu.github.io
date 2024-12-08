@@ -8,3 +8,8 @@
     position: relative;
     top: 50px;
 }
+
+body.dark .profile-photo {
+    /* New properties */
+    border: 2px solid #05d9e8; /* Adds a black border of 5px */
+}
