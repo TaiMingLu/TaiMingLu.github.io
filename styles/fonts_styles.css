@@ -79,6 +79,14 @@
     src: url('fonts/BlenderPro-Bold.ttf') format('truetype');
 }
 
+/* Inlanders - Bold */
+@font-face {
+    font-family: 'Inlanders';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/Inlanders-Bold.otf') format('truetype');
+}
+
 
 
 

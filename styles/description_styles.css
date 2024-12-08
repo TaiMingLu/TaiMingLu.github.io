@@ -10,7 +10,7 @@
 /* Dark Mode */
 body.dark .name {
     color: #FCEE09;
-    font-family: 'BlenderPro', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
+    font-family: 'Inlanders', 'BlenderPro', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 42px;
 }
 
@@ -62,6 +62,24 @@ body.dark .footer-text {
     /* Optional: Adds underline on hover */
 }
 
+.highlight-link2 {
+    color: #ffaa00;
+    text-decoration: none;
+}
+
+.highlight-link2:hover {
+    color: #8fd600;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
 /* Dark Mode */
 body.dark .highlight-link {
     /* color: #ff80ff; */
@@ -73,6 +91,25 @@ body.dark .highlight-link:hover {
     text-decoration: underline;
 }
 
+body.dark .highlight-link2 {
+    color: #1efb4d;
+    /* Replace with your desired color */
+    text-decoration: none;
+    /* Optional: Removes underline */
+}
+
+body.dark .highlight-link2:hover {
+    color: #fb0cfc;
+    /* Optional: Color change on hover */
+    text-decoration: underline;
+    /* Optional: Adds underline on hover */
+}
+
+
+
+
+
+
 
 .section-title {
     font-family: 'Candara', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
@@ -80,6 +117,7 @@ body.dark .highlight-link:hover {
 
 
 body.dark .section-title {
+    font-weight: bold;
     font-family: 'BlenderPro', 'Candara', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
 }
 
