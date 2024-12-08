@@ -21,6 +21,7 @@ body.dark .name {
 
 body.dark .contact-links {
     color: #00F0FF;
+    /* color: #ff9900; */
 }
 
 body.dark .contact-links:hover {

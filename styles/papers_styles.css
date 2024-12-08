@@ -28,15 +28,35 @@
 /* Dark Mode */
 body.dark .papertitle {
     color: white !important;
+    /* color: #ff9900 !important; */
+    /* color: #00F0FF !important; */
     font-family: 'BlenderPro', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
     /* Ensure white in dark mode */
     font-size: 17px;
 }
 
 body.dark .papertitle:hover {
-    color: #ff9900 !important;
+    /* color: #ff9900 !important; */
+    color: #ff3d00 !important;
     /* Dark mode hover color */
 }
+
+
+/* Dark Mode */
+body.dark .papertitle-highlight {
+    color: #ff9900 !important;
+    font-family: 'BlenderPro', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+body.dark .papertitle-highlight:hover {
+    color: #FF003C !important;
+    /* Dark mode hover color */
+}
+
+
+
+
 
 
 .paper_links {
