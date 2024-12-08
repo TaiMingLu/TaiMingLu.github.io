@@ -31,6 +31,12 @@ h2 {
   font-size: 22px;
 }
 
+body.dark h2 {
+  font-size: 26px;
+  color: #FCEE09;
+}
+
+
 
 
 .one {
@@ -73,6 +79,17 @@ body.dark {
   /* Dark theme text color */
 }
 
+body.dark,
+body.dark td,
+body.dark th,
+body.dark tr,
+body.dark p,
+body.dark a {
+  font-family: 'Play', 'Hind Madurai', Verdana, Helvetica, sans-serif;
+}
+
+
+
 
 
 /* Smaller font size for medium screens (e.g., tablets) */
@@ -96,6 +113,10 @@ body.dark {
 
   h2 {
     font-size: 18px;
+  }
+  
+  body.dark h2 {
+    font-size: 22px;
   }
 
 }
@@ -121,6 +142,11 @@ body.dark {
 
   h2 {
     font-size: 14px;
+  }
+
+    
+  body.dark h2 {
+    font-size: 18px;
   }
 
 

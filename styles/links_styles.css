@@ -1,6 +1,6 @@
 /* Dark Mode Styles */
 body.dark a {
-    color: #007aff;
+    color: #0051ff;
     /* Light blue for links in dark mode */
     text-decoration: none;
     /* Ensure links remain underlined */
@@ -12,7 +12,7 @@ body.dark a {
 
 body.dark a:hover {
     /* color: 	#5f94ff; */
-    color: 	#9924ff;
+    color: 	#d1f7ff;
     /* Lighter blue for hover in dark mode */
     text-decoration: none;
     /* Ensure underline remains on hover */

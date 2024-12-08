@@ -10,6 +10,8 @@
 /* Dark Mode */
 body.dark .name {
     color: #FCEE09;
+    font-family: 'BlenderPro', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 42px;
 }
 
 
@@ -34,6 +36,7 @@ body.dark .contact-links {
 
 body.dark .footer-text {
     color: #a2a2a2;
+    font-family: 'Play', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
 }
 
 
@@ -56,7 +59,7 @@ body.dark .footer-text {
 /* Dark Mode */
 body.dark .highlight-link {
     /* color: #ff80ff; */
-    color: #f22eeb;
+    color: #f22a6d;
 }
 
 body.dark .highlight-link:hover {
@@ -65,8 +68,12 @@ body.dark .highlight-link:hover {
 
 
 .section-title {
-
     font-family: 'Candara', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
+}
+
+
+body.dark .section-title {
+    font-family: 'BlenderPro', 'Candara', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
 }
 
 
@@ -77,6 +84,10 @@ body.dark .highlight-link:hover {
         font-size: 30px;
     }
 
+    body.dark .name {
+        font-size: 38px;
+    }
+
 }
 
 /* Even smaller font size for small screens (e.g., phones) */
@@ -84,5 +95,9 @@ body.dark .highlight-link:hover {
     .name {
         font-size: 24px;
         padding-top: 30px;
+    }
+
+    body.dark .name {
+        font-size: 32px;
     }
 }

@@ -46,6 +46,44 @@
     src: url('fonts/Candara-Bold.ttf') format('truetype');
 }
 
+
+/* Play - Regular */
+@font-face {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/Play-Regular.ttf') format('truetype');
+}
+
+/* Play - Bold */
+@font-face {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/Play-Bold.ttf') format('truetype');
+}
+
+/* BlenderPro - Regular */
+@font-face {
+    font-family: 'BlenderPro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/BlenderPro-Regular.ttf') format('truetype');
+}
+
+/* BlenderPro - Bold */
+@font-face {
+    font-family: 'BlenderPro';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/BlenderPro-Bold.ttf') format('truetype');
+}
+
+
+
+
+
+
 /* latin-ext */
 @font-face {
     font-family: 'Lato';

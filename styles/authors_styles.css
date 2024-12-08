@@ -47,6 +47,7 @@
 body.dark .author {
     color: #929292;
     /* Dark mode text color */
+    font-family: 'Play', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
 }
 
 body.dark .author:hover {
@@ -57,4 +58,9 @@ body.dark .author:hover {
 body.dark .author-click::after {
     background-color: white;
     /* White underline for dark mode */
+}
+
+/* Dark mode styles */
+body.dark .author_myself {
+    font-family: 'Play', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
 }

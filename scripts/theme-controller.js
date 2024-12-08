@@ -1,3 +1,5 @@
+import { applyColorsBasedOnTheme } from './paper-split-controller.js';
+
 function setTheme(preference) {
     const body = document.body;
 
@@ -14,14 +16,17 @@ function initializeThemeController() {
     // Always detect the system preference
     const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const initialPreference = systemPrefersDark ? 'dark' : 'light';
-    console.log(`Current theme detected: ${initialPreference}`); // Log the current theme for debugging
+    console.log(`Current theme detected: ${initialPreference}`); // For debugging
 
-    // Apply the system theme on load
+    // Apply the system theme on load (Currently forcing dark for testing)
     const savedTheme = localStorage.getItem('sessionTheme') || initialPreference;
-    // setTheme(savedTheme);
-    setTheme('light');
+    setTheme('dark'); // Force dark mode for testing
+    // setTheme(savedTheme); // In future, comment out the above line and uncomment this one for user/system theme
 
-    // Save the system preference in case the user toggles themes
+    // Apply colors immediately so .paper-splitter matches the chosen theme
+    applyColorsBasedOnTheme();
+
+    // Save the system preference
     localStorage.setItem('systemTheme', initialPreference);
 }
 
@@ -39,14 +44,17 @@ function setupThemeController() {
                 const isDarkTheme = body.classList.contains('dark');
                 const newTheme = isDarkTheme ? 'light' : 'dark';
 
-                // Toggle the theme class on the body
-                body.classList.toggle('dark', !isDarkTheme);
+                // Toggle the theme
+                setTheme(newTheme);
 
-                // Add/remove toggled class for button animation
+                // Toggle button animation
                 controllerButton.classList.toggle('theme-toggle--toggled', !isDarkTheme);
 
-                // Save the new theme preference in localStorage
+                // Save the new theme preference
                 localStorage.setItem('sessionTheme', newTheme);
+
+                // Update colors after toggling
+                applyColorsBasedOnTheme();
             });
         });
     } else {
@@ -70,70 +78,4 @@ function loadSvgIntoButton(buttonSelector, svgPath) {
         .catch((err) => console.error('Error loading SVG:', err));
 }
 
-// Initialize the theme controller on page load
-document.addEventListener('DOMContentLoaded', () => {
-    initializeThemeController();
-    setupThemeController();
-});
-
-
-
-// function setTheme(preference) {
-//     const body = document.body;
-
-//     if (preference === 'dark') {
-//         body.classList.add('dark');
-//         body.classList.remove('light');
-//     } else {
-//         body.classList.add('light');
-//         body.classList.remove('dark');
-//     }
-// }
-
-// function initializeThemeController() {
-//     // Always detect the system preference
-//     const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-//     const initialPreference = systemPrefersDark ? 'dark' : 'light';
-//     console.log(`Current theme detected: ${initialPreference}`); // Log the current theme for debugging
-
-//     // Apply the system theme on load
-//     // setTheme(initialPreference);
-//     setTheme('light');
-
-//     // Save the system preference in case the user toggles themes
-//     localStorage.setItem('systemTheme', initialPreference);
-// }
-
-// function setupThemeController() {
-//     const controllerButton = document.querySelector('.theme-toggle');
-
-//     if (controllerButton) {
-//         controllerButton.addEventListener('click', () => {
-//             const body = document.body;
-
-//             // Check current theme and toggle it
-//             const isDarkTheme = body.classList.contains('dark');
-//             const newTheme = isDarkTheme ? 'light' : 'dark';
-
-//             // Toggle the theme class on the body
-//             body.classList.toggle('dark', !isDarkTheme);
-
-//             // Add/remove toggled class for button animation
-//             controllerButton.classList.toggle('theme-toggle--toggled', !isDarkTheme);
-
-//             // Save the new theme preference in localStorage
-//             localStorage.setItem('sessionTheme', newTheme);
-//         });
-//     } else {
-//         console.warn('Theme controller button not found. Skipping event listener setup.');
-//     }
-// }
-
-
-// // Initialize the theme controller on page load
-// initializeThemeController();
-
-// // Call this function only when the button is added in the future
-// setupThemeController();
-
-
+export { setTheme, initializeThemeController, setupThemeController };

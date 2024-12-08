@@ -28,7 +28,9 @@
 /* Dark Mode */
 body.dark .papertitle {
     color: white !important;
+    font-family: 'BlenderPro', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
     /* Ensure white in dark mode */
+    font-size: 17px;
 }
 
 body.dark .papertitle:hover {
@@ -48,6 +50,12 @@ body.dark .papertitle:hover {
 }
 
 
+:root {
+    --splitter-colors-light: #90f1ef, #ffd6e0, #ffef9f, #c1fba4;
+    --splitter-colors-dark: #b000ff, #fd00ff, #8900ff, #ff0677;
+  }
+  
+
 
 
 /* Smaller font size for medium screens (e.g., tablets) */
@@ -64,6 +72,10 @@ body.dark .papertitle:hover {
 
     .paper-table {
         padding-left: 40px;
+    }
+
+    body.dark .papertitle {
+        font-size: 16px;
     }
   
   }
@@ -83,4 +95,9 @@ body.dark .papertitle:hover {
     .paper-table {
         padding-left: 25px;
     }
+
+    body.dark .papertitle {
+        font-size: 15px;
+    }
+
   }
