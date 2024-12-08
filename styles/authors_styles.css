@@ -6,7 +6,7 @@
     /* Removes default underline */
     position: relative;
     /* Enables positioning for the underline effect */
-    transition: color 0.3s ease;
+    /* transition: color 0.3s ease; */
     /* Smooth color transition if needed */
 }
 
@@ -33,7 +33,7 @@
     /* Thickness of the underline */
     background-color: black;
     /* Color of the underline */
-    transition: width 0.3s ease;
+    /* transition: width 0.3s ease; */
     /* Animation for the underline */
 }
 
