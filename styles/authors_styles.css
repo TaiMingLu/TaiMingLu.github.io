@@ -1,3 +1,15 @@
+.conference {
+    font-family: 'EB Garamond', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
+    color: #000000;
+    /* text-decoration: underline; */
+    text-decoration-color: #a0a0a0; /* change this to your desired color */
+    position: relative;
+    font-style: italic;
+    text-decoration-thickness: 0.8px;
+    text-decoration-style: solid; /* or dashed, dotted, wavy */
+}
+
+
 .author {
     font-family: 'EB Garamond', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
     color: #656565;
@@ -62,5 +74,12 @@ body.dark .author-click::after {
 
 /* Dark mode styles */
 body.dark .author_myself {
+    font-family: 'Play', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
+}
+
+/* Dark mode styles */
+body.dark .conference {
+    color: #47f3ff;
+    /* Dark mode text color */
     font-family: 'Play', 'Hind Madurai', 'Lato', Verdana, Helvetica, sans-serif;
 }
