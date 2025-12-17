@@ -73,8 +73,8 @@ body.dark .papertitle-highlight:hover {
 
 
 :root {
-    --splitter-colors-light: #c7f9cc, #90f1ef, #ffd6e0, #ffed90, #f0d5ff, #d8e6ff, #ffe2b3, #c1fba4, ;
-    --splitter-colors-dark: #ff0677, #b000ff, #fd00ff, #8900ff, #5900ff;
+    --splitter-colors-light: #c7f9cc, #90f1ef, #ffd6e0, #ffe978, #faf0ff, #edf4ff, #fff1d9, #c1fba4, ;
+    --splitter-colors-dark: #ff0677, #b000ff, #fd00ff, #8900ff, #4d0009, #2b007c, #001b64;
 }
 
 
